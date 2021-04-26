@@ -20,11 +20,10 @@ I found this first challenge problem to be straight forward.
 My solution to it was simply modifying the configure method in the QueryEngineModule 
 to use the WikipediaQueryEngine class instead of the FakeQueryEngine.
 
-## Challenge #2 Complete
+## Challenge #2 Incomplete
 
-(Explain your solution to Challenge #2. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+I was able to create an alternative revision formatter that adjust how the revisions are displayed making them easier to read.
+But I wasn't able to incorporate it into the app so that it opposes the flow of execution. I got a little confused on this part.
 
 ## Challenge #3 Complete
 
