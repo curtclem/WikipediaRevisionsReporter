@@ -1,6 +1,6 @@
 # Project Report
 
-(Put your name here)
+Curtis Clemmons 
 
 ## Markdown Tips
 
