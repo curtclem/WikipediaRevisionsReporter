@@ -27,21 +27,18 @@ But I wasn't able to incorporate it into the app so that it opposes the flow of 
 
 ## Challenge #3 Complete
 
-(Explain your solution to Challenge #3. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+I used a chain of function calls starting with the stream() method to combine the strings. 
 
 ## Reflection Question #1: Functional vs OO
 
-(Write one or more paragraphs comparing and contrasting the iterative and functional  
-approaches to string concatenation you explored in challenge #3. Which do you
-prefer, and why?)
+Both are similar in the sense that they accomplish the same thing. 
+I personally prefer the iterative approach, mainly because I am more familiar with it compared to using a chain of function calls.
+Also I find that the iterative approach is generally easier to read and follow along compared to a single line with function call after function call.
 
 ## Reflection Question #2: Polymorphism and Dependency Inversion
 
-(Explain how polymorphism engendered dependency inversion in this little
-application. Be clear and precise here, as this is, in part, an assessment of
-your correct use of technical terminology.
-Consider, for example, where exactly is polymorphism used?
-Where exactly is a dependency inverted?)
+Polymorphism is used in this application by having an interface that a Query Engine can inherit from. 
+This allows for dependency inversion because the QueryEngineModule is not dependent on the specific query engine 
+but rather the abstract QueryEngine interface.
+
 
